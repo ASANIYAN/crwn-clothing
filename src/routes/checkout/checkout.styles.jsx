@@ -1,12 +1,14 @@
-.checkout-container {
-    width: 55%;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px auto 0;
-  
-    .checkout-header {
+import styled from "styled-components";
+
+export const CheckoutContainer = styled.section`
+  width: 55%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 0;
+
+  .checkout-header {
       width: 100%;
       padding: 10px 0;
       display: flex;
@@ -28,5 +30,4 @@
       margin-left: auto;
       font-size: 36px;
     }
-  }
-  
+`;
